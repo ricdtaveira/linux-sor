@@ -1,0 +1,5 @@
+Como instalar e configurar o servidor de FTP no Ubuntu
+https://sempreupdate.com.br/como-instalar-um-servidor-ftp-ubuntu/
+
+Como configurar um Servidor FTP no VPS Ubuntu
+https://www.hostinger.com.br/tutoriais/como-configurar-servidor-ftp-no-vps-ubuntu/

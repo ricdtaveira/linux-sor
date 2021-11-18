@@ -1,0 +1,11 @@
+SSH Tutorial Como Configurar Conexão SSH Linux ou Windows via SmarTTY
+https://www.youtube.com/watch?v=5e100nRzNFc
+
+Download PuTTY
+https://www.putty.org/
+
+Criptografia Assimétrica - Segurança da Informação - Dicionário de Informática
+https://www.youtube.com/watch?v=GeSnN8Tt04U
+
+Acessando um servidor Linux via SSH com Android
+https://www.youtube.com/watch?v=qtx6PFB57Fg

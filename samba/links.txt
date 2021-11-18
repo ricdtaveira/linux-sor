@@ -1,0 +1,20 @@
+Servidor Samba: o que é
+https://www.infowester.com/linuxsamba.php
+
+Install and Configure Samba
+https://ubuntu.com/tutorials/install-and-configure-samba#1-overview
+
+Capítulo 18 - SAMBA
+https://www.ppgia.pucpr.br/pt/arquivos/techdocs/linux/foca-avancado/ch-s-samba.html
+
+Configuração Servidor Samba Básico Linux Ubuntu
+https://www.youtube.com/watch?v=QDJBZs4-XI8
+
+Integração Windows & Linux com Samba.
+https://www.devmedia.com.br/integracao-windows-linux-com-samba/8541
+
+Servidor de Arquivos com Samba no Linux Ubuntu - Parte 01
+https://www.youtube.com/watch?v=gWoW89aukVI
+
+Servidor de Arquivos com Samba no Linux Ubuntu - Parte 02
+https://www.youtube.com/watch?v=1thbm3etBPs
