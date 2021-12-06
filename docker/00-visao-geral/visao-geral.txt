@@ -1,0 +1,64 @@
+
+Visão Geral
+-----------
+
+Docker é uma plataforma aberta para desenvolvimento, envio e execução de aplicativos. 
+O Docker permite que você separe seus aplicativos de sua infraestrutura para que possa 
+entregar o software rapidamente. Com o Docker, você pode gerenciar sua infraestrutura 
+da mesma forma que gerencia seus aplicativos.
+
+A Plataforma Docker
+-------------------
+O Docker oferece a capacidade de empacotar e executar um aplicativo em um ambiente isolado denominado contêiner. 
+
+O isolamento e a segurança permitem que você execute vários contêineres simultaneamente em um determinado host. 
+
+Os contêineres são leves e contêm tudo o que é necessário para executar o aplicativo, portanto, você não precisa 
+depender do que está instalado atualmente no host. Você pode compartilhar contêineres facilmente enquanto trabalha
+e certifique-se de que todos com quem você compartilha recebam o mesmo contêiner que funciona da mesma maneira.
+
+O Docker fornece ferramentas e uma plataforma para gerenciar o ciclo de vida de seus contêineres:
+
+1) Desenvolva seu aplicativo e seus componentes de suporte usando contêineres.
+2) O contêiner se torna a unidade para distribuição e teste de seu aplicativo.
+3) Quando estiver pronto, implante seu aplicativo em seu ambiente de produção, como um contêiner 
+ou um serviço orquestrado. Isso funciona da mesma forma, quer seu ambiente de produção seja um data center 
+local, um provedor de nuvem ou um híbrido dos dois.
+
+Para que posso usar o Docker?
+-----------------------------
+Entrega rápida e consistente de seus aplicativos
+
+O Docker simplifica o ciclo de vida de desenvolvimento, permitindo que os desenvolvedores trabalhem em 
+ambientes padronizados usando contêineres locais que fornecem seus aplicativos e serviços. 
+
+Os contêineres são ótimos para fluxos de trabalho de integração contínua e entrega contínua (CI / CD).
+
+Considere o seguinte cenário de exemplo:
+
+1) Seus desenvolvedores escrevem código localmente e compartilham seu trabalho com seus colegas usando 
+   contêineres Docker.
+2) Eles usam o Docker para colocar seus aplicativos em um ambiente de teste e executar testes automatizados e 
+   manuais.
+3) Quando os desenvolvedores encontram bugs, eles podem corrigi-los no ambiente de desenvolvimento e reimplantá-los
+   no ambiente de teste para teste e validação.
+4) Quando o teste é concluído, obter a correção para o cliente é tão simples quanto enviar a imagem atualizada para
+   o ambiente de produção.
+
+Implantação responsiva e escalonamento
+--------------------------------------
+
+A plataforma baseada em contêiner do Docker permite cargas de trabalho altamente portáteis. Os contêineres do Docker
+podem ser executados em um laptop local do desenvolvedor, em máquinas físicas ou virtuais em um data center, em 
+provedores de nuvem ou em uma mistura de ambientes.
+
+A portabilidade e a leveza do Docker também facilitam o gerenciamento dinâmico de cargas de trabalho, ampliando ou 
+eliminando aplicativos e serviços conforme ditam as necessidades de negócios, quase em tempo real.
+
+Executando mais cargas de trabalho no mesmo hardware
+----------------------------------------------------
+
+O Docker é leve e rápido. Ele fornece uma alternativa viável e econômica às máquinas virtuais baseadas em hipervisor,
+para que você possa usar mais de sua capacidade de computação para atingir seus objetivos de negócios. O Docker é 
+perfeito para ambientes de alta densidade e para implantações de pequeno e médio porte, onde você precisa fazer 
+mais com menos recursos.

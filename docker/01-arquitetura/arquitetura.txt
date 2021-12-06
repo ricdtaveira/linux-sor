@@ -1,0 +1,51 @@
+
+
+Arquitetura do Docker
+---------------------
+
+Docker usa uma arquitetura cliente-servidor. O cliente Docker se comunica com o daemon Docker, que faz o 
+trabalho pesado de construir, executar e distribuir seus contêineres Docker. 
+
+O cliente Docker e o daemon podem ser executados no mesmo sistema ou você pode conectar um cliente Docker 
+a um daemon remoto do Docker. O cliente Docker e o daemon se comunicam usando uma API REST, por soquetes 
+UNIX ou uma interface de rede. 
+
+Outro cliente Docker é o Docker Compose, que permite trabalhar com aplicativos que consistem em um conjunto 
+de contêineres.
+
+[Ver figura arquitetura.png]
+
+
+O Docker daemon
+---------------
+O Docker daemon (dockerd) escuta as solicitações da Docker API e gerencia objetos Docker, como imagens, 
+contêineres, redes e volumes. 
+
+Um daemon também pode se comunicar com outros daemons para gerenciar serviços Docker.
+
+O Cliente Docker
+----------------
+O cliente Docker (docker) é a principal maneira pela qual muitos usuários do Docker interagem com o Docker. 
+Quando você usa comandos como docker run, o cliente envia esses comandos para dockerd, que os executa. 
+O comando docker usa a API Docker. O cliente Docker pode se comunicar com mais de um daemon.
+
+Docker Desktop
+--------------
+O Docker Desktop é um aplicativo fácil de instalar para seu ambiente Mac ou Windows que permite criar 
+e compartilhar aplicativos e microsserviços em contêineres. O Docker Desktop inclui o Docker daemon (dockerd), 
+o cliente Docker (docker), Docker Compose, Docker Content Trust, Kubernetes e Credential Helper. 
+Para obter mais informações, consulte Docker Desktop.
+
+Registros Docker
+----------------
+Um registro Docker armazena imagens Docker. O Docker Hub é um registro público que qualquer pessoa pode usar e 
+o Docker está configurado para procurar imagens no Docker Hub por padrão. 
+Você pode até executar seu próprio registro privado.
+
+Quando você usa os comandos docker pull ou docker run, as imagens necessárias são extraídas do registro configurado. Quando você usa o comando docker push, sua imagem é enviada para o registro configurado.
+
+Objetos Docker
+--------------
+Ao usar o Docker, você está criando e usando imagens, contêineres, redes, volumes, plug-ins e outros objetos. 
+Esta seção é uma breve visão geral de alguns desses objetos.
+   
