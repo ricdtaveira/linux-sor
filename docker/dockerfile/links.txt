@@ -1,0 +1,22 @@
+Docker Explained: Using Dockerfiles to Automate Building of Images
+------------------------------------------------------------------
+https://www.digitalocean.com/community/tutorials/docker-explained-using-dockerfiles-to-automate-building-of-images
+
+Best practices for writing Dockerfiles
+--------------------------------------
+https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+
+
+How to build a docker image using a Dockerfile
+----------------------------------------------
+https://linuxconfig.org/how-to-build-a-docker-image-using-a-dockerfile
+
+
+How to create a docker-based LAMP stack using docker-compose on Ubuntu 18.04 Bionic Beaver Linux
+-------------------------------------------------------------------------------------------------
+https://linuxconfig.org/how-to-create-a-docker-based-lamp-stack-using-docker-compose-on-ubuntu-18-04-bionic-beaver-linux
+
+
+PacktWorkshops/The-Docker-Workshop
+https://github.com/PacktWorkshops/The-Docker-Workshop
+https://github.com/PacktWorkshops/The-Docker-Workshop/tree/master/Chapter02

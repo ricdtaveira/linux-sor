@@ -1,7 +1,37 @@
+PacktWorkshops/The-Docker-Workshop
+----------------------------------
+https://github.com/PacktWorkshops/The-Docker-Workshop
+
+
 Documentação
 https://docs.docker.com/
 
 Docker Desktop overview
 -----------------------
 https://docs.docker.com/desktop/
+
+Comandos básicos Docker
+-----------------------
+https://medium.com/xp-inc/principais-comandos-docker-f9b02e6944cd
+
+Aprenda a Iniciar um Container Docker
+-------------------------------------
+https://www.hostinger.com.br/tutoriais/container-docker
+
+Comandos mais utilizados no Docker
+----------------------------------
+https://woliveiras.com.br/posts/comandos-mais-utilizados-no-docker/
+
+Comandos básicos Docker
+-----------------------
+https://imasters.com.br/desenvolvimento/comandos-basicos-docker
+
+Como verificar se o docker está funcionando ou não
+--------------------------------------------------
+
+
+Como Instalar e Utilizar o Docker no Ubuntu 20.04
+-------------------------------------------------
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-pt
+
 

@@ -1,9 +1,29 @@
 Informações sobre Imagens
 -------------------------
+1) Listar todas as imagens registradas no host onde o comando é executado.
+   sudo docker images 
+   sudo docker images --help
+   sudo docker images -a
 
+2) Acessar o Dockhub
+   https://hub.docker.com/
 
+3) Pesquisar uma imagem no Dockerhub
+   sudo docker search node
+   sudo docker search mysql
+   sudo docker search lamp
 
+4) Listar imagens pelo IDs numéricos
+   sudo docker images -q
 
+5) Baixar uma imagem do Dockerhub no host 
+   sudo docker pull <nome-da-imagem>
+   sudo docker pull node
+   sudo docker pull mysql 
+   sudo docker pull linode/lamp
+   
+
+   
 Informações sobre Volumes
 -------------------------
 
@@ -12,3 +32,26 @@ Informações sobre Volumes
 
 Informações sobre Containers
 ----------------------------
+1) Criar um container
+   sudo docker run <nome_da_imagem>
+   sudo docker run i386/phpmyadmin     //https://hub.docker.com/r/i386/phpmyadmin/
+
+1) Lista todos os contêineres. Observar a coluna status
+   sudo docker container ls -a 
+
+2) Ver todos os containers ativos e inativos
+   sudo docker ps -a
+   sudo docker container ls -a
+
+3) Ver o último container que foi criado
+   sudo docker ps -l
+
+4) Iniciar um container parado usando ID do container 
+   sudo docker start 1c08a7a0d0e4 
+
+5) Criar uma imagem a partir do Dockerhub
+   sudo docker pull i386/node
+   
+
+
+   
